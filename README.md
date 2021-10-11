@@ -8,9 +8,12 @@ It allows to take automated screenshots during an interval only when there is a 
 
 Modules used:
 
-tkinter  for GUI elements
-pyAutoGui is used for capturing screen shot
-SSIM algorithm from skimage is used for diffrentiating two images
-open CV  for processing the images
-numpy  for converting image to a numpyarry for processing
-os for creating and processing the  files 
+tkinter  for GUI elements,
+pyAutoGui is used for capturing screen shot,
+SSIM algorithm from skimage is used for diffrentiating two images,
+open CV  for processing the images,
+numpy  for converting image to a numpyarry for processing,
+os for creating and processing the  files.
+
+Credits:
+team:
