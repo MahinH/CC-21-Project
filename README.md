@@ -1,9 +1,9 @@
 #Automated Screen Shots saver
 
-This is mini python project is aimed  to reduce the time in  taking  individual screenshots.
+This mini python project is aimed to reduce the time in taking  individual screenshots.
 
 
-Instead of pressing keys this allows to take automated screenshots in a duration only when there is a difference between the previous and current image.The image is then saved to a user specified directory.There is also an option for taking screenshots with reference to a time table in which screen shots are taken and stored in a directory having the subject name in a specified duration.
+Instead of pressing keys this project  enables us  to take automated screenshots in a duration only when there is a difference between the previous and current image.The image is then saved to a user specified directory.There is also an option for taking screenshots with reference to a time table in which screen shots are taken and stored in a directory having the subject name in a specified duration.
 
 This mini-project is still in early stage.
 
