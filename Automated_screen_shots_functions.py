@@ -18,7 +18,7 @@ def check_img_similarity(a, b):
     """
     c = cv2.cvtColor(np.array(a), cv2.COLOR_BGR2GRAY)
     d = cv2.cvtColor(np.array(b), cv2.COLOR_BGR2GRAY)
-    # Compute SSIM between two images
+                                                             # Compute SSIM between two images
     (score, diff) = structural_similarity(c, d, full=True)
     return score
 
@@ -37,16 +37,15 @@ def screen_shot(name: str, time_limit: int):
     time_start = time.time()
     time_limit = time_limit * 60
 
-    # name = "\\".join(name.split("\\"))
 
-    if not os.path.exists(name):  # checking for existing directory if True creates a new path
+    if not os.path.exists(name):                            # checking for existing directory if True creates a new path
         os.mkdir(name)
 
     temp = pyautogui.screenshot()
     i = 0
 
     while True:
-        my_screenshot = pyautogui.screenshot()  # captures the screen shot
+        my_screenshot = pyautogui.screenshot()              # captures the screen shot
         a = my_screenshot
 
         if check_img_similarity(a, temp) < 0.9:
